@@ -37,13 +37,15 @@ Spec ID (repository name): `1.47-tft-172x320-i80-st7789`
 
 | Version | Promo | Summary | Full docs |
 | ------- | ----- | ------- | --------- |
-| YDP147HT001-V3 | — | [Summary](#ydp147ht001-v3) | [Full docs](./versions/YDP147HT001-V3/) |
+| YDP147HT001-V3 | <img alt="YDP147HT001-V3" src="./versions/YDP147HT001-V3/images/product.png" width="120" /> | [Summary](#ydp147ht001-v3) | [Full docs](./versions/YDP147HT001-V3/) |
 
 ---
 
 ## YDP147HT001-V3
 
-**Notes:** Capacitive touch (CST816D); interface is 8-bit 8080 MCU (I80).
+<p align="center"><img alt="YDP147HT001-V3" src="./versions/YDP147HT001-V3/images/product.png" width="320" /></p>
+
+**Notes:** Capacitive touch (CST816D); 8-bit 8080 MCU (I80); silicon is ST7789V3 (also ST7789P3); repo label stays ST7789.
 
 Full product page, datasheets, and examples: [versions/YDP147HT001-V3/](./versions/YDP147HT001-V3/)
 

@@ -13,6 +13,8 @@
   <img alt="Driver: ST7789" src="https://img.shields.io/badge/Driver-ST7789-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 1.47 寸 172×320 TFT I80 模组（ST7789）宣传图" src="./images/product.png" width="640" /></p>
+
 ## 目录
 
 - [产品简介](#产品简介)
@@ -26,11 +28,13 @@
 
 ## 产品简介
 
-OSPTEK **1.47 寸 172×320 TFT** 是一款 **I80（8-bit 8080 MCU）** 并口彩色显示模组，显示驱动为 **ST7789**，触摸驱动为 **CST816D**。适合小型 HMI、手持终端与物联网人机界面等场景。
+OSPTEK **1.47 寸 172×320 TFT** 是一款 **I80（8-bit 8080 MCU）** 并口彩色显示模组，显示驱动为 **ST7789** 系列，触摸驱动为 **CST816D**。适合小型 HMI、手持终端与物联网人机界面等场景。
 
 规格标识（仓库名）：`1.47-tft-172x320-i80-st7789`
 
 当前模组版本：**YDP147HT001-V3**。电气与外形细节以 [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf) 为准。
+
+> **驱动硅片：** 本料号实际为 **ST7789V3**（后续亦称 **ST7789P3**）。仓库名与对外通称仍用 **ST7789**；手册与初始化参数见下方资料。
 
 ## 规格参数
 
@@ -40,7 +44,7 @@ OSPTEK **1.47 寸 172×320 TFT** 是一款 **I80（8-bit 8080 MCU）** 并口彩
 | 类型 | TFT（Normally black） |
 | 分辨率 | 172×320 |
 | 接口 | I80（8-bit 8080 MCU） |
-| 驱动 IC | ST7789 |
+| 驱动 IC | ST7789（硅片 ST7789V3 / ST7789P3） |
 | 触摸驱动 | CST816D |
 
 > 完整外形尺寸、FPC 定义、供电与时序以产品规格书 / 驱动手册为准。
@@ -64,6 +68,11 @@ OSPTEK **1.47 寸 172×320 TFT** 是一款 **I80（8-bit 8080 MCU）** 并口彩
 | 资料 | 链接 |
 | ---- | ---- |
 | 产品规格书（YDP147HT001-V3） | [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf) |
+| 驱动 IC 数据手册（ST7789V3，亦称 ST7789P3） | [`docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf`](./docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf) |
+| ST7789 系列版本对照（V2 / P3 / W3 等） | [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg) |
+| ST7789 系列版本说明（配套） | [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg) |
+| 触摸 IC 数据手册（CST816D） | [`docs/CST_816_D_V1_0_2_1b06dfb078.pdf`](./docs/CST_816_D_V1_0_2_1b06dfb078.pdf) |
+| 初始化参数（INI） | [`docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI`](./docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI) |
 
 ## 购买链接
 

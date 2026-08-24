@@ -13,6 +13,8 @@
   <img alt="Driver: ST7789" src="https://img.shields.io/badge/Driver-ST7789-E7352C?style=flat-square" />
 </p>
 
+<p align="center"><img alt="OSPTEK 1.47″ 172×320 TFT I80 module (ST7789) product image" src="./images/product.png" width="640" /></p>
+
 ## Contents
 
 - [Overview](#overview)
@@ -26,11 +28,13 @@
 
 ## Overview
 
-OSPTEK **1.47″ 172×320 TFT** is a color display module with an **I80 (8-bit 8080 MCU)** parallel interface, driven by **ST7789**, with touch controller **CST816D**. It suits compact HMI, handheld devices, and IoT user interfaces.
+OSPTEK **1.47″ 172×320 TFT** is a color display module with an **I80 (8-bit 8080 MCU)** parallel interface, driven by the **ST7789** family, with touch controller **CST816D**. It suits compact HMI, handheld devices, and IoT user interfaces.
 
 Spec ID (repository name): `1.47-tft-172x320-i80-st7789`
 
 Current module version: **YDP147HT001-V3**. Electrical and mechanical details follow [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf).
+
+> **Driver silicon:** This part uses **ST7789V3** (also known later as **ST7789P3**). The repository name and public label stay **ST7789**; see the datasheet and init file below.
 
 ## Specifications
 
@@ -40,7 +44,7 @@ Current module version: **YDP147HT001-V3**. Electrical and mechanical details fo
 | Type | TFT (normally black) |
 | Resolution | 172×320 |
 | Interface | I80 (8-bit 8080 MCU) |
-| Driver IC | ST7789 |
+| Driver IC | ST7789 (silicon ST7789V3 / ST7789P3) |
 | Touch IC | CST816D |
 
 > Full outline, FPC pinout, power, and timing follow the product datasheet / driver manual.
@@ -64,6 +68,11 @@ Current module version: **YDP147HT001-V3**. Electrical and mechanical details fo
 | Resource | Link |
 | ---- | ---- |
 | Product datasheet (YDP147HT001-V3) | [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf) |
+| Driver IC datasheet (ST7789V3, also ST7789P3) | [`docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf`](./docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf) |
+| ST7789 family variant comparison (V2 / P3 / W3, etc.) | [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg) |
+| ST7789 family variant notes (companion) | [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg) |
+| Touch IC datasheet (CST816D) | [`docs/CST_816_D_V1_0_2_1b06dfb078.pdf`](./docs/CST_816_D_V1_0_2_1b06dfb078.pdf) |
+| Init parameters (INI) | [`docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI`](./docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI) |
 
 ## Buy
 

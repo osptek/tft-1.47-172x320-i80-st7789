@@ -37,13 +37,15 @@
 
 | 版本 | 宣传图 | 简介 | 完整资料 |
 | ---- | ------ | ---- | -------- |
-| YDP147HT001-V3 | — | [简介](#ydp147ht001-v3) | [完整资料](./versions/YDP147HT001-V3/) |
+| YDP147HT001-V3 | <img alt="YDP147HT001-V3" src="./versions/YDP147HT001-V3/images/product.png" width="120" /> | [简介](#ydp147ht001-v3) | [完整资料](./versions/YDP147HT001-V3/) |
 
 ---
 
 ## YDP147HT001-V3
 
-**说明：** 带触摸（CST816D）；接口为 8-bit 8080 MCU（I80）。
+<p align="center"><img alt="YDP147HT001-V3" src="./versions/YDP147HT001-V3/images/product.png" width="320" /></p>
+
+**说明：** 带触摸（CST816D）；接口为 8-bit 8080 MCU（I80）；硅片为 ST7789V3（亦称 ST7789P3），仓库通称 ST7789。
 
 完整产品页、规格书与示例：[versions/YDP147HT001-V3/](./versions/YDP147HT001-V3/)
 
