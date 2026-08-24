@@ -16,6 +16,7 @@
 ## 目录
 
 - [说明](#说明)
+- [ST7789 系列版本对照](#st7789-系列版本对照)
 - [版本一览](#版本一览)
 - [YDP147HT001-V3](#ydp147ht001-v3)
 - [购买链接](#购买链接)
@@ -25,11 +26,22 @@
 
 ## 说明
 
-本仓库收录 **1.47 寸 172×320 TFT（I80 · ST7789）** 显示模组资料。
+本仓库收录 **1.47 寸 172×320 TFT（I80 · ST7789）** 显示模组资料。硅片可为 ST7789 / ST7789V3（亦称 ST7789P3）等系列变体，对外通称 **ST7789**。
 
 **根目录 README 为导航页**。下表可快速浏览各版本；点击「完整资料」进入 `versions/` 下对应**料号文件夹**（产品页、规格书、示例均在该目录内）。
 
 规格标识（仓库名）：`1.47-tft-172x320-i80-st7789`
+
+---
+
+## ST7789 系列版本对照
+
+<p align="center"><img alt="ST7789 系列版本对照（V2 / P3 / W3 等）" src="./docs/ST7789-variants-comparison.jpg" width="720" /></p>
+
+<p align="center"><img alt="ST7789 系列版本说明（配套）" src="./docs/ST7789-variants-notes.jpg" width="720" /></p>
+
+- 对照表：[`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg)
+- 配套说明：[`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg)
 
 ---
 

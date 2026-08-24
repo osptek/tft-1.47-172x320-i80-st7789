@@ -69,8 +69,6 @@ Current module version: **YDP147HT001-V3**. Electrical and mechanical details fo
 | ---- | ---- |
 | Product datasheet (YDP147HT001-V3) | [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf) |
 | Driver IC datasheet (ST7789V3, also ST7789P3) | [`docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf`](./docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf) |
-| ST7789 family variant comparison (V2 / P3 / W3, etc.) | [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg) |
-| ST7789 family variant notes (companion) | [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg) |
 | Touch IC datasheet (CST816D) | [`docs/CST_816_D_V1_0_2_1b06dfb078.pdf`](./docs/CST_816_D_V1_0_2_1b06dfb078.pdf) |
 | Init parameters (INI) | [`docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI`](./docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI) |
 

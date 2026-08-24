@@ -16,6 +16,7 @@
 ## Contents
 
 - [About](#about)
+- [ST7789 family variant notes](#st7789-family-variant-notes)
 - [Versions](#versions)
 - [YDP147HT001-V3](#ydp147ht001-v3)
 - [Buy](#buy)
@@ -25,11 +26,22 @@
 
 ## About
 
-This repository covers the **1.47″ 172×320 TFT (I80 · ST7789)** display module.
+This repository covers the **1.47″ 172×320 TFT (I80 · ST7789)** display module family. Silicon may be ST7789 / ST7789V3 (also called ST7789P3); the public family name remains **ST7789**.
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
 Spec ID (repository name): `1.47-tft-172x320-i80-st7789`
+
+---
+
+## ST7789 family variant notes
+
+<p align="center"><img alt="ST7789 family variant comparison (V2 / P3 / W3, etc.)" src="./docs/ST7789-variants-comparison.jpg" width="720" /></p>
+
+<p align="center"><img alt="ST7789 family variant notes (companion)" src="./docs/ST7789-variants-notes.jpg" width="720" /></p>
+
+- Comparison: [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg)
+- Companion notes: [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg)
 
 ---
 

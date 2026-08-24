@@ -69,8 +69,6 @@ OSPTEK **1.47 寸 172×320 TFT** 是一款 **I80（8-bit 8080 MCU）** 并口彩
 | ---- | ---- |
 | 产品规格书（YDP147HT001-V3） | [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf) |
 | 驱动 IC 数据手册（ST7789V3，亦称 ST7789P3） | [`docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf`](./docs/ST_7789_V3_SPEC_Preliminary_V0_0_200102_8f4b7f4d5d.pdf) |
-| ST7789 系列版本对照（V2 / P3 / W3 等） | [`docs/ST7789-variants-comparison.jpg`](./docs/ST7789-variants-comparison.jpg) |
-| ST7789 系列版本说明（配套） | [`docs/ST7789-variants-notes.jpg`](./docs/ST7789-variants-notes.jpg) |
 | 触摸 IC 数据手册（CST816D） | [`docs/CST_816_D_V1_0_2_1b06dfb078.pdf`](./docs/CST_816_D_V1_0_2_1b06dfb078.pdf) |
 | 初始化参数（INI） | [`docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI`](./docs/ST7789V3A-1.47IPS-2.2gamma-20210818.INI) |
 
