@@ -30,7 +30,7 @@
 
 OSPTEK **1.47″ 172×320 TFT** is a color display module with an **I80 (8-bit 8080 MCU)** parallel interface, driven by the **ST7789** family, with touch controller **CST816D**. It suits compact HMI, handheld devices, and IoT user interfaces.
 
-Spec ID (repository name): `1.47-tft-172x320-i80-st7789`
+Spec ID (repository name): `tft-1.47-172x320-i80-st7789`
 
 Current module version: **YDP147HT001-V3**. Electrical and mechanical details follow [`docs/YDP147HT001-V3.pdf`](./docs/YDP147HT001-V3.pdf).
 
@@ -52,7 +52,7 @@ Current module version: **YDP147HT001-V3**. Electrical and mechanical details fo
 ## Repository layout
 
 ```text
-1.47-tft-172x320-i80-st7789/           # repo root (nav: ../../README_EN.md)
+tft-1.47-172x320-i80-st7789/           # repo root (nav: ../../README_EN.md)
 └── versions/
     └── YDP147HT001-V3/                # full materials for this part number
         ├── README.md

@@ -30,7 +30,7 @@ This repository covers the **1.47″ 172×320 TFT (I80 · ST7789)** display modu
 
 The **root README is the navigation page**. Use the table below for a quick scan; open **Full docs** to enter that **part-number folder** under `versions/` (product page, datasheets, and examples live there).
 
-Spec ID (repository name): `1.47-tft-172x320-i80-st7789`
+Spec ID (repository name): `tft-1.47-172x320-i80-st7789`
 
 ---
 
