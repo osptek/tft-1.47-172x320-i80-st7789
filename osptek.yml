@@ -1,0 +1,14 @@
+id: tft-1.47-172x320-i80-st7789
+category: displays
+
+size: "1.47"
+panel: tft
+resolution: 172x320
+interface: [i80]
+shape: rect
+
+versions:
+  - id: YDP147HT001-V3
+    driver: ST7789P3
+    touch: CST816D
+    note: 8-bit 8080 MCU (I80); silicon is ST7789V3 (also ST7789P3); repo label stays ST7789
