@@ -6,6 +6,7 @@ panel: tft
 resolution: 172x320
 interface: [i80]
 shape: rect
+corner: rounded
 
 versions:
   - id: YDP147HT001-V3
